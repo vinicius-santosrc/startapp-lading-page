@@ -1,0 +1,128 @@
+.hero {
+    height: 1000px;
+    padding: 5rem 2rem;
+    background-image: url('../images/image-background-hero-gym.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left-side, .hero-right-side {
+    width: 100%;
+    color: white;
+}
+
+.hero-right-side {
+    text-align: right;
+}
+
+.hero-header {
+    background-color: white;
+    color: black;
+    width: auto;
+    font-size: 32px;
+}
+
+.hero-text-option p {
+    font-size: 21px;
+}
+
+.hero-option {
+    margin: 1.3rem auto;
+}
+
+.hero-option button {
+    background: white;
+    padding: 10px 50px;
+    color: black;
+    font-size: 23px;
+    box-shadow: 10px -10px 0px rgb(212, 212, 212);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.hero-option button:hover {
+    box-shadow: none;
+}
+
+.hero-right-title {
+    width: 10px;
+    position: absolute;
+    right: 2rem;
+    top: 16rem;
+    transform: rotateZ(90deg);
+
+}
+
+.hero-share-wrapper-button {
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-share-wrapper-button:hover {
+    color: red;
+}
+
+@media screen and (max-width: 900px) {
+    .hero {
+        width: 100%;
+        padding: 5rem 1.3rem;
+        padding-top: 20rem;
+        display: block;
+        height: 800px;
+        background-image: url('../images/image-background-hero-gym-mobile.webp');
+    }
+
+    .hero-header {
+        background-color: white;
+        color: black;
+        width: auto;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .hero-text-option p {
+        font-size: 17px;
+        text-shadow: 1px 1px 5px black;
+    }
+
+    .hero-option {
+        text-align: center;
+    }
+
+    .hero-text-option {
+        text-align: center;
+        margin: 2rem 0px;
+    }
+
+    .hero-option button {
+        background: white;
+        padding: 10px 50px;
+        color: black;
+        font-size: 19px;
+        box-shadow: 10px -10px 0px rgb(212, 212, 212);
+        cursor: pointer;
+        transition: 500ms;
+        width: 80%;
+        font-weight: 600;
+        
+       
+    }
+
+    .hero-right-title {
+        position: relative;
+        transform: none;
+        width: auto;
+        top: 0;
+        right: 0;
+    }
+
+    .hero-right-side {
+        display: none;
+    }
+}

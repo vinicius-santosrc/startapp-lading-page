@@ -1,0 +1,42 @@
+.Challanges-Component {
+    background-image: url('../images/background-black-components.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 2rem 0px;
+    color: white;
+    text-align: center;
+}
+
+.InsideChallanges {
+    width: 1200px;
+    padding: 1rem 1.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+}
+
+.InsideChallanges li {
+    list-style: none;
+}
+
+.InsideChallanges img {
+    width: 90px;
+}
+
+.ChallangeItemBox {
+    width: 30%;
+}
+
+@media screen and (max-width: 900px) {
+    .InsideChallanges {
+        width: 100%;
+    }
+
+    .ChallangeItemBox {
+        width: 50%;
+    }
+}

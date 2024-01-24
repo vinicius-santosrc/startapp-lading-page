@@ -1,0 +1,42 @@
+.header-start-application {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    color: white;
+    width: 100%;
+    padding: 1rem 2rem;
+    transition: 500ms;
+}
+
+.header-start-application-right-side button {
+    background-color: black;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    gap: 5px;
+    color: pointer;
+    font-weight: 600;
+}
+
+.header-start-application-right-side button i {
+    color: red;
+    font-size: 27px;
+}
+
+.header-start-application-left-side img {
+    width: 220px;
+}
+
+@media screen and (max-width: 900px) {
+    .header-start-application {
+        padding: 1rem 1.3rem;
+    }
+}

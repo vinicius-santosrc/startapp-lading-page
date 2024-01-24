@@ -1,0 +1,66 @@
+.section-component-large {
+    height: 700px;
+    background-image: url('../images/background-black-components.webp');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    color: white;
+
+}
+
+.component-title {
+    background-image: url("https://gymate-iota.vercel.app/static/media/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    font-size: 23px;
+}
+
+.component-body {
+    font-size: 20px;
+}
+
+.inside-component-large {
+    width: 1200px;
+    margin: auto;
+}
+
+.ListAbout {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin: 0px;
+}
+
+.ItemListAbout {
+    text-align: center;
+    padding: 1rem;
+}
+
+.ItemListAbout img {
+    width: 80px;
+}
+
+#two {
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray
+}
+
+@media screen and (max-width: 900px) {
+    .component-title {
+        width: 100%;
+        margin: 1rem 0px;
+    }
+
+    .section-component-large {
+        padding: 5rem 1.3rem;
+        height: auto;
+    }
+
+    .component-body {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,63 @@
+.featured-banner {
+    background-image: url('../images/featured-banner.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: white;
+}
+
+.featured-banner button {
+    width: 200px;
+    height: 40px;
+    border-radius: 0px;
+    background: white;
+    box-shadow: 10px -5px 0px black;
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.featured-banner button:hover {
+    color: black;
+    box-shadow: 0px 0px 0px black;
+}
+
+.featured-box {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+
+.text-side {
+    width: 50%;
+}
+
+.button-side {
+    width: 50%;
+    justify-content: right;
+    text-align: right;
+}
+
+@media screen and (max-width: 900px) {
+    .featured-box {
+        width: 100%;
+        display: block;
+        padding: 2rem 1.3rem;
+    }
+
+    .text-side {
+        width: 100%;
+    }
+
+    .button-side {
+        margin: 2rem 0px;
+        width: 100%
+    }
+}
