@@ -5,7 +5,7 @@
 <p><b>StartApp</b> Descubra a Revolução Fitness - Transforme Seu Estilo de Vida, Alcance Seus Objetivos!</p>
 
 
-👉 Live Demo: <a href='https://startapp.vercel.app/'>Start APP Demo</a>
+👉 Live Demo: <a href='https://startapp-web.vercel.app'>Start APP Demo</a>
 
 <h3>Feito com:</h3>
 
